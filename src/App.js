@@ -43,6 +43,5 @@ function App() {
     // </div>
   );
 }
-// http://macosa.dima.unige.it/om/esr/alg/0_7s.htm
 
 export default App;
