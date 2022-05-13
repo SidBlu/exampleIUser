@@ -11,7 +11,27 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// import express from "express";
+// const app = express();
+// import { Users } from "./users.js";
+// import cors from "cors";
+
+// app.use(cors());
+
+// app.get("/", (req, res) => {
+//   const { q } = req.query;
+
+//   const keys = ["first_name", "last_name", "email"];
+
+//   const search = (data) => {
+//     return data.filter((item) =>
+//       keys.some((key) => item[key].toLowerCase().includes(q))
+//     );
+//   };
+
+//   q ? res.json(search(Users).slice(0, 10)) : res.json(Users.slice(0, 10));
+// });
+
+// app.listen(5000, () => console.log("API is working!"))
+
 reportWebVitals();
